@@ -29,10 +29,12 @@ hari.innerHTML = `${dayID()}, ${tgl} ${monthID()} ${year}`
 jam.innerHTML = `${hour}:${minutes}`
 
 // Dirubah 
-const pengirim = "Cikal";
-const nomorWa = "6289668068213" // awalan nomor 0 harus di awalin 62
+const pengirim = "Ervan Ganteng";
+const nomorWa = "628602108554" // awalan nomor 0 harus di awalin 62
 const textWa = "Ah bisa aja kamu"
-const pesan = `Pada akhirnya kita berdua menjadi dua orang penjahat: Kamu yang dengan hebatnya bisa mencuri hatiku, begitu juga aku yang berhasil mencuri hatimu`;
+const pesan = `Ini effort kecil dari Laki-laki sederhana nih. Mungkin sekarang hidupmu agak berat yaa? Tetap semangat yaa chaaa. 
+Untuk hari ini, semoga tes Suruh nanti lancar yaak♡ tetep jaga kesehatannya yaa chaa.
+Semoga kita dipermudahkan dan Di Sahkan menjadi Warga bareng tahun ini♡.`;
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -58,14 +60,14 @@ hilang1.addEventListener('click', () => {
   Swal.fire({
     imageUrl: "/assets/img/stiker_mylove.gif",
     imageHeight: 120,
-    title: 'Halo Kenalan Dong, Nama Kamu Siapa ?',
+    title: 'Isi Namamu Coba Chaaa',
     html: `<input type="text" id="login" class="swal2-input" placeholder="Nama Kamu">`,
     confirmButtonText: 'Kirim',
     focusConfirm: false,
     preConfirm: () => {
       const login = Swal.getPopup().querySelector('#login').value
       if (!login) {
-        Swal.showValidationMessage(`Masukin Nama Kamu Dong, Aku Mau Kenalan :(`)
+        Swal.showValidationMessage(`Coba Masukin Namamu chaa`)
       }
       return { login }
     }
@@ -73,7 +75,7 @@ hilang1.addEventListener('click', () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0)
-    let txt = `Halo, Nama kamu ${result.value.login}, Nama kamu berawal dari huruf ${namaAwal.toUpperCase()}, ${pesan}`;
+    let txt = `Halo ${result.value.login}, ${pesan}`;
 
     const typeWriter = () => {
       if (i < txt.length) {
