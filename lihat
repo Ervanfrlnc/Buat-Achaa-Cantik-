@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Dari Ervan Ganteng</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
+        rel="stylesheet" />
+    <link href="https://web.dariku.my.id/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://web.dariku.my.id/css/fontawesome-all.css" rel="stylesheet" />
+    <link href="https://web.dariku.my.id/css/styles.css" rel="stylesheet" />
+
+    <!-- Favicon  -->
+    <!-- <link rel="icon" href="images/favicon.png" /> -->
+
+    <style>
+    iframe {
+        height: 100%;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top"
+        style="background: var(--color-primary); height: 50px !important">
+        <style>
+        .navbar-brand.logo-text {
+            font: 700 2rem/1.5rem "Open Sans", sans-serif;
+            color: #fff;
+            text-decoration: none;
+        }
+        </style>
+        <div class="container d-flex align-items-center">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <a class="navbar-brand logo-text" href="/" style="font-size: 1.2em; font-weight: 600"><i
+                    class="fa-solid fa-arrow-left"></i> Kembali</a>
+
+            <span class="nav-item">
+                <a class="btn-solid-reg-white my-0 mx-0" href="wa.me/6289602108554"
+                    target="_blank">Bilang Terima Kasih Sekarang!
+                    (DM)</a>
+            </span>
+        </div>
+        <!-- end of container -->
+    </nav>
+
+    <div         style="position: fixed; top: 50px; left: 0; right: 0; bottom: 0; padding: 0 !important">
+        <iframe style="margin: 0" src="https://web.dariku.my.id/theme/DK101/" frameborder="0"></iframe>
+    </div>
+
+    
+    <script src="https://web.dariku.my.id/js/jquery.js"></script>
+    <script type="module" src="https://web.dariku.my.id/js/dt.js"></script>
+</body>
+
+</html>
